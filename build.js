@@ -29,7 +29,5 @@ function callbackErr(err) {
   console.log('File copied');
 }
 
-md('./build');
-md('./build/js');
-md('./build/css');
-fs.copyFile('./public/index.html','./build/index.html',callbackErr);
+md('./dist');
+fs.copyFile('./public/index.html','./dist/index.html',callbackErr);
