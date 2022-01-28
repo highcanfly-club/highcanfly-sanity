@@ -1,7 +1,7 @@
 # This is only for HighCanFly Internal use
 
 Take care to not distribute the Cloudflare page URL
-Sensitive datas may leak
+Sensitive datas may leak from here
 
 # Sanity Blogging Content Studio
 
