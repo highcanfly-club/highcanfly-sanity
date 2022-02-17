@@ -28,5 +28,9 @@
       "name": "part:@sanity/base/schema",
       "path": "./schemas/schema"
     }
-  ]
+  ],
+  "server": {
+    "hostname": "0.0.0.0",
+    "port": 8788
+  }
 }

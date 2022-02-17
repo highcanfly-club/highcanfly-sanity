@@ -1,0 +1,111 @@
+//converted to ndjson at https://www.json-to-ndjson.app
+//next imported with
+//sanity dataset import datas/clubs.ndjson production
+[{
+    "name": "High Can Fy",
+    "_type":"club",
+    "type":{
+        "_ref":"6a99ce2d-a83d-4bdd-83d8-b23b816827b4b",
+        "_type":"reference"
+        },
+    "web": "https://www.highcanfly.club"
+},
+{
+    "name": "Raz'Motte",
+    "_type":"club",
+    "type":{
+        "_ref":"6a99ce2d-a83d-4bdd-83d8-b23b816827b4",
+        "_type":"reference"
+        },
+    "web": "http://www.razmotte.org"
+},
+{
+    "name": "Dunkerque Flysurfing Club",
+    "_type":"club",
+    "type":{
+        "_ref":"dbb602c4-aebc-4504-9760-87e6377513c8",
+        "_type":"reference"
+        },
+    "web": "http://www.dfc-kiteboarding.fr/"
+},
+{
+    "name": "Mata I Kite School",
+    "_type":"club",
+    "type":{
+        "_ref":"dbb602c4-aebc-4504-9760-87e6377513c8",
+        "_type":"reference"
+        },
+    "web": "http://mataikite.fr/" 
+},
+{
+    "name": "AS Lycée Europe",
+    "_type":"club",
+    "type":{
+        "_ref":"dbb602c4-aebc-4504-9760-87e6377513c8",
+        "_type":"reference"
+        },
+    "web": "https://intranet.ffvl.fr/structure/12862" 
+},
+{
+    "name": "SUAPS Kite - Univeristé Littoral Côte Opale",
+    "_type":"club",
+    "type":{
+        "_ref":"dbb602c4-aebc-4504-9760-87e6377513c8",
+        "_type":"reference"
+        },
+    "web": "https://intranet.ffvl.fr/structure/13070" 
+},
+{
+    "name": "Cambrésis Boomerang Club",
+    "_type":"club",
+    "type":{
+        "_ref":"b80927b1-6e9e-4a3b-9d56-a72ed7774f12",
+        "_type":"reference"
+        },
+    "web": "http://www.cambresis-boomerang.org/" 
+},
+{
+    "name": "Miztral Cerf-Volant",
+    "_type":"club",
+    "type":{
+        "_ref":"6c11a4d9-4373-4175-97d6-7287cd2c1492",
+        "_type":"reference"
+        },
+    "web": "http://www.miztral.com" 
+},
+{
+    "name": "Dynamic Bertry",
+    "_type":"club",
+    "type":{
+        "_ref":"6c11a4d9-4373-4175-97d6-7287cd2c1492",
+        "_type":"reference"
+        },
+    "web": "https://intranet.ffvl.fr/structure/14147" 
+},
+{
+    "name": "Le vent de Bray-Dunes",
+    "_type":"club",
+    "type":{
+        "_ref":"6c11a4d9-4373-4175-97d6-7287cd2c1492",
+        "_type":"reference"
+        },
+    "web": "http://www.leventdebraydunes.com/" 
+},
+{
+    "name": "Club nautique du Perroquet",
+    "_type":"club",
+    "type":{
+        "_ref":"dbb602c4-aebc-4504-9760-87e6377513c8",
+        "_type":"reference"
+        },
+    "web": "https://intranet.ffvl.fr/structure/1363" 
+},
+{
+    "name": "Trip N Kite Gravelines",
+    "_type":"club",
+    "type":{
+        "_ref":"dbb602c4-aebc-4504-9760-87e6377513c8",
+        "_type":"reference"
+        },
+    "web": "https://intranet.ffvl.fr/structure/12763" 
+}]
