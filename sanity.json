@@ -15,6 +15,25 @@
     "@sanity/vision",
     "@sanity/dashboard"
   ],
+  "__experimental_spaces": [
+    {
+      "name": "production",
+      "title": "Production",
+      "default": true,
+      "api": {
+        "projectId": "kh6phz18",
+        "dataset": "production"
+      }
+    },
+    {
+      "name": "development",
+      "title": "Development",
+      "api": {
+        "projectId": "kh6phz18",
+        "dataset": "development"
+      }
+    }
+  ],
   "env": {
     "development": {
       "plugins": [
