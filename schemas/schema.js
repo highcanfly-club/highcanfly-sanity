@@ -11,6 +11,7 @@ import post from './post';
 import author from './author';
 import club from './club';
 import clubtype from './clubtype';
+import gallery from './gallery.js';
 
 // Then we give our schema to the builder and provide the result to Sanity
 export default createSchema({
@@ -29,5 +30,6 @@ export default createSchema({
     blockContent,
     club,
     clubtype,
+    gallery
   ]),
 })
