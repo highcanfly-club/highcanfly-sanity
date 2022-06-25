@@ -20,22 +20,22 @@ const underlineIcon = () => (
   <span style={{ fontWeight: 'bold' }}>U</span>
 );
 const underlineRender = props => (
-  <span style={{ 'text-decoration-line': 'underline' }}>{props.children}</span>
+  <span style={{ textDecorationLine: 'underline' }}>{props.children}</span>
 );
 const barredIcon = () => (
   <span style={{ fontWeight: 'bold' }}>-</span>
 );
 const barredRender = props => (
-  <span style={{ 'text-decoration-line': 'line-through' }}>{props.children}</span>
+  <span style={{ textDecorationLine: 'line-through' }}>{props.children}</span>
 );
 const overlinedIcon = () => (
   <span style={{ fontWeight: 'bold' }}>‾</span>
 );
 const overlinedRender = props => (
-  <span style={{ 'text-decoration-line': 'overline' }}>{props.children}</span>
+  <span style={{ textDecorationLine: 'overline' }}>{props.children}</span>
 );
 
-export default {
+const blockContent = {
   title: 'Block Content',
   name: 'blockContent',
   type: 'array',
@@ -121,3 +121,5 @@ export default {
     }
   ],
 }
+
+export default blockContent

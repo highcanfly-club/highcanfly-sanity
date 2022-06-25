@@ -11,7 +11,7 @@ import post from './post';
 import author from './author';
 import club from './club';
 import clubtype from './clubtype';
-import gallery from './gallery.js';
+import gallery from './gallery';
 
 // Then we give our schema to the builder and provide the result to Sanity
 export default createSchema({

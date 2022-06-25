@@ -1,7 +1,7 @@
 //Coming from Jan Hoogeveen 
 //https://www.sanity.io/exchange/community/janhoogeveen
 
-export default {
+const gallery = {
     name: 'gallery',
     type: 'object',
     title: 'Gallery',
@@ -69,3 +69,5 @@ export default {
       },
     },
   };
+
+  export default gallery

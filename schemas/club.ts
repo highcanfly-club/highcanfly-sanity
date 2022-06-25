@@ -1,4 +1,4 @@
-export default {
+const club = {
     name: 'club',
     title: 'Club',
     type: 'document',
@@ -29,3 +29,5 @@ export default {
         },
     ],
 }
+
+export default club
