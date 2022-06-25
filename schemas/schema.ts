@@ -14,7 +14,7 @@ import clubtype from './clubtype';
 import gallery from './gallery';
 
 // Then we give our schema to the builder and provide the result to Sanity
-export default createSchema({
+const highcanflySchema = createSchema({
   // We name our schema
   name: 'default',
   // Then proceed to concatenate our document type
@@ -33,3 +33,6 @@ export default createSchema({
     gallery
   ]),
 })
+
+export default highcanflySchema
+export {blockContent,category,post,author,club,clubtype,gallery,highcanflySchema}
