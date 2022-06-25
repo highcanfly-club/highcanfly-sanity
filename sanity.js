@@ -1,4 +1,4 @@
-/* eslint-disable no-var, no-console, no-process-exit, prefer-template, import/no-unassigned-import */
+/* eslint-disable no-var, no-console, no-process-exit, prefer-template */
 /**
  * ┌────────────────┐
  * │                │
@@ -17,7 +17,7 @@ var nodeVersionParts = process.version
 var majorVersion = nodeVersionParts[0]
 var minorVersion = nodeVersionParts[1]
 if (majorVersion < 12) {
-  console.error(err + 'Node.js version 12 or higher required. You are running ' + process.version)
+  console.error(err + 'Node.js version 12 or higher required. You are running ' + process.version + ` ${majorVersion}.${minorVersion}`)
   console.error('')
   process.exit(1)
 }
