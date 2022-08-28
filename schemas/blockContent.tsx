@@ -118,6 +118,9 @@ const blockContent = {
     },
     {
       type: 'gallery',
+    },
+    {
+      type: 'youtube',
     }
   ],
 }

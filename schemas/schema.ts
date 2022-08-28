@@ -12,6 +12,7 @@ import author from './author';
 import club from './club';
 import clubtype from './clubtype';
 import gallery from './gallery';
+import youtube from './youtube';
 
 // Then we give our schema to the builder and provide the result to Sanity
 const highcanflySchema = createSchema({
@@ -30,9 +31,10 @@ const highcanflySchema = createSchema({
     blockContent,
     club,
     clubtype,
-    gallery
+    gallery,
+    youtube
   ]),
 })
 
 export default highcanflySchema
-export {blockContent,category,post,author,club,clubtype,gallery,highcanflySchema}
+export {blockContent,category,post,author,club,clubtype,gallery,youtube,highcanflySchema}
