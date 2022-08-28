@@ -1,4 +1,4 @@
-export default {
+const youtube =  {
     name: 'youtube',
     type: 'object',
     title: 'YouTube Embed',
@@ -10,3 +10,5 @@ export default {
       }
     ]
   }
+
+  export default youtube

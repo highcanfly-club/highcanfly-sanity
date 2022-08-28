@@ -121,6 +121,9 @@ const blockContent = {
     },
     {
       type: 'youtube',
+    },
+    {
+      type: 'vimeo',
     }
   ],
 }
